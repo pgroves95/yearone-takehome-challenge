@@ -1,9 +1,12 @@
 import React from 'react'
+import { TextField, Button } from '@material-ui/core'
+
 
 export default function SearchBar() {
     return (
         <div>
-            <h1>SearchBar</h1>
+            <TextField/>
+            <Button>Search Movies</Button>
         </div>
     )
 }
