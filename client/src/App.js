@@ -1,15 +1,10 @@
 import './App.css';
-import SearchBar from './components/SearchBar'
-import MovieResults from './components/MovieResults'
-import Nav from './components/Nav';
-
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <SearchBar/>
-      <MovieResults/>
+
+<h1>This be the App.</h1>
     </div>
   );
 }
